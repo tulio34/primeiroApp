@@ -15,11 +15,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class FeedPage {
 
+  public nome_usuario:string = "Usuário do Sistema";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  public somaDoisNumeros(num1:number, num2:number) :void{
+    alert(num1 + num2)
+  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FeedPage');
+   // this.somaDoisNumeros(10, 99);
   }
 
 }
