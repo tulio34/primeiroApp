@@ -19,14 +19,14 @@ import { MovieProvider } from '../../providers/movie/movie';
 })
 export class FeedPage {
 
-  // public objeto_feed = {
-  //   titulo_feed:"Primeiro Usuário Cadastrado",
-  //   data_feed:"Novembro, 5, 1995",
-  //   descricao_feed:"Estou criando um app massa, essa é a minha descrição",
-  //   qtd_likes_feed:1200,
-  //   qtd_comentario_feed: 100,
-  //   time_comment_feed:"11h atrás"
-  // }
+  public objeto_feed = {
+    titulo_feed:"Primeiro Usuário Cadastrado",
+    data_feed:"Novembro, 5, 1995",
+    descricao_feed:"Estou criando um app massa, essa é a minha descrição",
+    qtd_likes_feed:1200,
+    qtd_comentario_feed: 100,
+    time_comment_feed:"11h atrás"
+  }
 
   public lista_filmes = new Array<any>();
 
